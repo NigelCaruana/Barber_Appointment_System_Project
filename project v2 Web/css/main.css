@@ -1,0 +1,44 @@
+body {
+    
+    font-family: "Lato", sans-serif;
+}
+
+.mySlides {
+    display: none
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 680px;
+}
+    
+#shampoo-image, #comb-image, #wax-image{
+    background-color: white;
+    width:100%;
+    height: 246px;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color: white!important;
+    background-color: #000!important;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+@media only screen and (min-width: 300) and (max-width: 800){
+    .carousel-inner img{
+        width: 100%;
+        height: 350px;  
+    }
+
+    .carousel-inner{
+        background-color: black;
+        height: 545px;
+    }
+
+}
